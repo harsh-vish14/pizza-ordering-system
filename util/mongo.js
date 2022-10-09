@@ -20,7 +20,8 @@ if (!cached) {
 }
 
 async function dbConnect() {
-  // console.log("dbConnect");
+  console.log("dbConnect");
+  console.log(MONGO_URL);
   if (cached.conn) {
     return cached.conn;
   }

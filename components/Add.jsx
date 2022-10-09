@@ -74,7 +74,7 @@ const Add = ({ setClose }) => {
         <div className={styles.item}>
           <label className={styles.label}>Desc</label>
           <textarea
-            maxlength="200"
+            maxLength="200"
             rows={4}
             type="text"
             onChange={(e) => setDesc(e.target.value)}
